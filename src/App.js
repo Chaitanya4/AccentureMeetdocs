@@ -96,12 +96,13 @@ function App() {
             <Col >
             <h5 style={{textAlign:"center",color:"blue"}}>Voice Notes</h5>
               <div id="meetcontent"> {message} </div> 
-              <Button variant="primary" onClick={printDocument}>Print Text</Button>
+              <Button variant="primary" onClick={printDocument}>Download Text</Button>
+              <Button  style={{marginLeft:10}}variant="primary" onClick={resetMessage}>Clear Meeting Content</Button>
               <br/>
               <br/>
               <p style={{textAlign:"center"}}>Editor Box for editing content</p>
               <Form.Control style={{marginBottom:10}} as="textarea" rows="4" name='message' defaultValue={transcript} onChange={e => setMessage(e.target.value)}/>
-              <Button variant="primary" onClick={resetMessage}>Clear Editor Content</Button>
+             
       
             </Col>
             <Col>
