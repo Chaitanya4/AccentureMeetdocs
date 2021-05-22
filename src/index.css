@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.center{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+
+    button{
+      width: '28';
+      height: '28';
+      cursor: 'pointer';
+      pointer-events: 'none';
+      outline: 'none';
+      background-color: 'yellow';
+      border: 'solid 1px rgba(255,255,255,1)';
+      border-radius:8px ;
+      }
