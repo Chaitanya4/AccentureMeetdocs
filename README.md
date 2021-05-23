@@ -5,7 +5,11 @@ A meeting website that allows you to take voice notes (convert audio into text f
 
 Additional Note: Run this website in google chrome to avoid any issue.
 
-Download or clone the repository. Open the terminal and run npm start
+Download or clone the repository. 
+Open the terminal .
+
+Run npm install to install the node_modules
+Run npm start for running the project.
 
 Click on Start Recognition button to start conversion of audio to text. Stop Recognition button will stop the process of conversion of audio to text. Reset the Text will reset the text present in the textarea.
 
